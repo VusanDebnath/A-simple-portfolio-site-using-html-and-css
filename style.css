@@ -49,6 +49,53 @@ nav ul li a{
     background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('./images/6-Reasons-Why-Having-a-Professional-Coder-Certification-Is-Crucial.jpg') no-repeat center center/cover;
 }
 
-.hero h1{
+.hero h1, .hero p{
     color: #fff;
+}
+
+.highlight{
+    color: #00d4ff;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00d4ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #007bbd;
+}
+
+/* About Section Styles */
+.container{
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.skills{
+    margin-top: 20px;
+}
+
+.skills li{
+    display: inline-block;
+    background: #ddd;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/* Footer Styles */
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 10%;
 }
